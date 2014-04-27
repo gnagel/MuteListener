@@ -30,18 +30,6 @@ void MuteListenerBlockProc(SystemSoundID  ssID,void* clientData);
 
 
 // ===== ===== ===== ===== =====
-// System state helpers:
-// ===== ===== ===== ===== =====
-
-// Pause while in the background, if your app supports playing audio in the background, you want this.
-// Otherwise your app will be rejected.
--(void)didEnterBackground;
-
-// Resume when entering foreground
--(void)willReturnToForeground;
-
-
-// ===== ===== ===== ===== =====
 // Mute switch helpers:
 // ===== ===== ===== ===== =====
 
