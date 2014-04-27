@@ -12,10 +12,14 @@
 		F270DA04190D782D0071E0D2 /* MuteListener.m in Sources */ = {isa = PBXBuildFile; fileRef = F270DA03190D782D0071E0D2 /* MuteListener.m */; };
 		F270DA0B190D782D0071E0D2 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F270DA0A190D782D0071E0D2 /* XCTest.framework */; };
 		F270DA0C190D782D0071E0D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F270D9FC190D782D0071E0D2 /* Foundation.framework */; };
-		F270DA0E190D782D0071E0D2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F270DA0D190D782D0071E0D2 /* UIKit.framework */; };
 		F270DA11190D782D0071E0D2 /* libMuteListener.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F270D9F9190D782D0071E0D2 /* libMuteListener.a */; };
 		F270DA17190D782D0071E0D2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F270DA15190D782D0071E0D2 /* InfoPlist.strings */; };
 		F270DA19190D782D0071E0D2 /* MuteListenerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F270DA18190D782D0071E0D2 /* MuteListenerTests.m */; };
+		F270DA29190D84930071E0D2 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F270DA28190D84930071E0D2 /* AudioToolbox.framework */; };
+		F270DA2B190D84A00071E0D2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F270DA2A190D84A00071E0D2 /* UIKit.framework */; };
+		F270DA2D190D84A80071E0D2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F270DA2C190D84A80071E0D2 /* CoreGraphics.framework */; };
+		F270DA30190D874D0071E0D2 /* silent_killer.caf in Resources */ = {isa = PBXBuildFile; fileRef = F270DA2E190D874D0071E0D2 /* silent_killer.caf */; };
+		F270DA31190D874D0071E0D2 /* silent_killer.m4a in Resources */ = {isa = PBXBuildFile; fileRef = F270DA2F190D874D0071E0D2 /* silent_killer.m4a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,10 +53,14 @@
 		F270DA03190D782D0071E0D2 /* MuteListener.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MuteListener.m; sourceTree = "<group>"; };
 		F270DA09190D782D0071E0D2 /* MuteListenerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MuteListenerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F270DA0A190D782D0071E0D2 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		F270DA0D190D782D0071E0D2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		F270DA14190D782D0071E0D2 /* MuteListenerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MuteListenerTests-Info.plist"; sourceTree = "<group>"; };
 		F270DA16190D782D0071E0D2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F270DA18190D782D0071E0D2 /* MuteListenerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MuteListenerTests.m; sourceTree = "<group>"; };
+		F270DA28190D84930071E0D2 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		F270DA2A190D84A00071E0D2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F270DA2C190D84A80071E0D2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F270DA2E190D874D0071E0D2 /* silent_killer.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = silent_killer.caf; sourceTree = "<group>"; };
+		F270DA2F190D874D0071E0D2 /* silent_killer.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = silent_killer.m4a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F270DA2D190D84A80071E0D2 /* CoreGraphics.framework in Frameworks */,
+				F270DA2B190D84A00071E0D2 /* UIKit.framework in Frameworks */,
+				F270DA29190D84930071E0D2 /* AudioToolbox.framework in Frameworks */,
 				F270D9FD190D782D0071E0D2 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -70,7 +81,6 @@
 			files = (
 				F270DA11190D782D0071E0D2 /* libMuteListener.a in Frameworks */,
 				F270DA0B190D782D0071E0D2 /* XCTest.framework in Frameworks */,
-				F270DA0E190D782D0071E0D2 /* UIKit.framework in Frameworks */,
 				F270DA0C190D782D0071E0D2 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -100,9 +110,11 @@
 		F270D9FB190D782D0071E0D2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F270DA2C190D84A80071E0D2 /* CoreGraphics.framework */,
+				F270DA2A190D84A00071E0D2 /* UIKit.framework */,
+				F270DA28190D84930071E0D2 /* AudioToolbox.framework */,
 				F270D9FC190D782D0071E0D2 /* Foundation.framework */,
 				F270DA0A190D782D0071E0D2 /* XCTest.framework */,
-				F270DA0D190D782D0071E0D2 /* UIKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -110,6 +122,8 @@
 		F270D9FE190D782D0071E0D2 /* MuteListener */ = {
 			isa = PBXGroup;
 			children = (
+				F270DA2E190D874D0071E0D2 /* silent_killer.caf */,
+				F270DA2F190D874D0071E0D2 /* silent_killer.m4a */,
 				F270DA01190D782D0071E0D2 /* MuteListener.h */,
 				F270DA03190D782D0071E0D2 /* MuteListener.m */,
 				F270D9FF190D782D0071E0D2 /* Supporting Files */,
@@ -213,6 +227,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F270DA30190D874D0071E0D2 /* silent_killer.caf in Resources */,
+				F270DA31190D874D0071E0D2 /* silent_killer.m4a in Resources */,
 				F270DA17190D782D0071E0D2 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
