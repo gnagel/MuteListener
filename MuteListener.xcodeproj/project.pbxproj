@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F270D9FD190D782D0071E0D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F270D9FC190D782D0071E0D2 /* Foundation.framework */; };
+		F270DA02190D782D0071E0D2 /* MuteListener.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F270DA01190D782D0071E0D2 /* MuteListener.h */; };
+		F270DA04190D782D0071E0D2 /* MuteListener.m in Sources */ = {isa = PBXBuildFile; fileRef = F270DA03190D782D0071E0D2 /* MuteListener.m */; };
+		F270DA0B190D782D0071E0D2 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F270DA0A190D782D0071E0D2 /* XCTest.framework */; };
+		F270DA0C190D782D0071E0D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F270D9FC190D782D0071E0D2 /* Foundation.framework */; };
+		F270DA0E190D782D0071E0D2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F270DA0D190D782D0071E0D2 /* UIKit.framework */; };
+		F270DA11190D782D0071E0D2 /* libMuteListener.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F270D9F9190D782D0071E0D2 /* libMuteListener.a */; };
+		F270DA17190D782D0071E0D2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F270DA15190D782D0071E0D2 /* InfoPlist.strings */; };
+		F270DA19190D782D0071E0D2 /* MuteListenerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F270DA18190D782D0071E0D2 /* MuteListenerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F270DA0F190D782D0071E0D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F270D9F1190D782D0071E0D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F270D9F8190D782D0071E0D2;
+			remoteInfo = MuteListener;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F270D9F7190D782D0071E0D2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				F270DA02190D782D0071E0D2 /* MuteListener.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F270D9F9190D782D0071E0D2 /* libMuteListener.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMuteListener.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F270D9FC190D782D0071E0D2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F270DA00190D782D0071E0D2 /* MuteListener-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MuteListener-Prefix.pch"; sourceTree = "<group>"; };
+		F270DA01190D782D0071E0D2 /* MuteListener.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MuteListener.h; sourceTree = "<group>"; };
+		F270DA03190D782D0071E0D2 /* MuteListener.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MuteListener.m; sourceTree = "<group>"; };
+		F270DA09190D782D0071E0D2 /* MuteListenerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MuteListenerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F270DA0A190D782D0071E0D2 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F270DA0D190D782D0071E0D2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		F270DA14190D782D0071E0D2 /* MuteListenerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MuteListenerTests-Info.plist"; sourceTree = "<group>"; };
+		F270DA16190D782D0071E0D2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F270DA18190D782D0071E0D2 /* MuteListenerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MuteListenerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F270D9F6190D782D0071E0D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F270D9FD190D782D0071E0D2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F270DA06190D782D0071E0D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F270DA11190D782D0071E0D2 /* libMuteListener.a in Frameworks */,
+				F270DA0B190D782D0071E0D2 /* XCTest.framework in Frameworks */,
+				F270DA0E190D782D0071E0D2 /* UIKit.framework in Frameworks */,
+				F270DA0C190D782D0071E0D2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F270D9F0190D782D0071E0D2 = {
+			isa = PBXGroup;
+			children = (
+				F270D9FE190D782D0071E0D2 /* MuteListener */,
+				F270DA12190D782D0071E0D2 /* MuteListenerTests */,
+				F270D9FB190D782D0071E0D2 /* Frameworks */,
+				F270D9FA190D782D0071E0D2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F270D9FA190D782D0071E0D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F270D9F9190D782D0071E0D2 /* libMuteListener.a */,
+				F270DA09190D782D0071E0D2 /* MuteListenerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F270D9FB190D782D0071E0D2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F270D9FC190D782D0071E0D2 /* Foundation.framework */,
+				F270DA0A190D782D0071E0D2 /* XCTest.framework */,
+				F270DA0D190D782D0071E0D2 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F270D9FE190D782D0071E0D2 /* MuteListener */ = {
+			isa = PBXGroup;
+			children = (
+				F270DA01190D782D0071E0D2 /* MuteListener.h */,
+				F270DA03190D782D0071E0D2 /* MuteListener.m */,
+				F270D9FF190D782D0071E0D2 /* Supporting Files */,
+			);
+			path = MuteListener;
+			sourceTree = "<group>";
+		};
+		F270D9FF190D782D0071E0D2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F270DA00190D782D0071E0D2 /* MuteListener-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F270DA12190D782D0071E0D2 /* MuteListenerTests */ = {
+			isa = PBXGroup;
+			children = (
+				F270DA18190D782D0071E0D2 /* MuteListenerTests.m */,
+				F270DA13190D782D0071E0D2 /* Supporting Files */,
+			);
+			path = MuteListenerTests;
+			sourceTree = "<group>";
+		};
+		F270DA13190D782D0071E0D2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F270DA14190D782D0071E0D2 /* MuteListenerTests-Info.plist */,
+				F270DA15190D782D0071E0D2 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F270D9F8190D782D0071E0D2 /* MuteListener */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F270DA1C190D782D0071E0D2 /* Build configuration list for PBXNativeTarget "MuteListener" */;
+			buildPhases = (
+				F270D9F5190D782D0071E0D2 /* Sources */,
+				F270D9F6190D782D0071E0D2 /* Frameworks */,
+				F270D9F7190D782D0071E0D2 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MuteListener;
+			productName = MuteListener;
+			productReference = F270D9F9190D782D0071E0D2 /* libMuteListener.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F270DA08190D782D0071E0D2 /* MuteListenerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F270DA1F190D782D0071E0D2 /* Build configuration list for PBXNativeTarget "MuteListenerTests" */;
+			buildPhases = (
+				F270DA05190D782D0071E0D2 /* Sources */,
+				F270DA06190D782D0071E0D2 /* Frameworks */,
+				F270DA07190D782D0071E0D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F270DA10190D782D0071E0D2 /* PBXTargetDependency */,
+			);
+			name = MuteListenerTests;
+			productName = MuteListenerTests;
+			productReference = F270DA09190D782D0071E0D2 /* MuteListenerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F270D9F1190D782D0071E0D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = gnagel;
+			};
+			buildConfigurationList = F270D9F4190D782D0071E0D2 /* Build configuration list for PBXProject "MuteListener" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F270D9F0190D782D0071E0D2;
+			productRefGroup = F270D9FA190D782D0071E0D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F270D9F8190D782D0071E0D2 /* MuteListener */,
+				F270DA08190D782D0071E0D2 /* MuteListenerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F270DA07190D782D0071E0D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F270DA17190D782D0071E0D2 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F270D9F5190D782D0071E0D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F270DA04190D782D0071E0D2 /* MuteListener.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F270DA05190D782D0071E0D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F270DA19190D782D0071E0D2 /* MuteListenerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F270DA10190D782D0071E0D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F270D9F8190D782D0071E0D2 /* MuteListener */;
+			targetProxy = F270DA0F190D782D0071E0D2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F270DA15190D782D0071E0D2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F270DA16190D782D0071E0D2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F270DA1A190D782D0071E0D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F270DA1B190D782D0071E0D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F270DA1D190D782D0071E0D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/MuteListener.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MuteListener/MuteListener-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		F270DA1E190D782D0071E0D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/MuteListener.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MuteListener/MuteListener-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		F270DA20190D782D0071E0D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MuteListener/MuteListener-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MuteListenerTests/MuteListenerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F270DA21190D782D0071E0D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MuteListener/MuteListener-Prefix.pch";
+				INFOPLIST_FILE = "MuteListenerTests/MuteListenerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F270D9F4190D782D0071E0D2 /* Build configuration list for PBXProject "MuteListener" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F270DA1A190D782D0071E0D2 /* Debug */,
+				F270DA1B190D782D0071E0D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F270DA1C190D782D0071E0D2 /* Build configuration list for PBXNativeTarget "MuteListener" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F270DA1D190D782D0071E0D2 /* Debug */,
+				F270DA1E190D782D0071E0D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F270DA1F190D782D0071E0D2 /* Build configuration list for PBXNativeTarget "MuteListenerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F270DA20190D782D0071E0D2 /* Debug */,
+				F270DA21190D782D0071E0D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F270D9F1190D782D0071E0D2 /* Project object */;
+}
